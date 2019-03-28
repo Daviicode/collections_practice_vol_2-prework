@@ -79,7 +79,8 @@ def organize_schools(schools)
       sf << school
     end
   end
-  
+  {"NYC" => nyc, "SF" => sf, "Chicago" => chicago}
+end
     
 end
 
