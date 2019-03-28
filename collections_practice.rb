@@ -70,9 +70,14 @@ def organize_schools(schools)
   nyc = []
   sf = []
   
-  schools.each do |location, school|
-    if school.value == ["Chicago"]
-      chicago << 
+  schools.each do |school, location|
+    if location.value == "Chicago"
+      chicago << school
+      elsif location.value == "NYC"
+      nyc << school
+      elsif location.value == "SF"
+      sf << school
+      
     
 end
 
