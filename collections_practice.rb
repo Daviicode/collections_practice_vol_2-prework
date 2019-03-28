@@ -77,7 +77,8 @@ def organize_schools(schools)
       nyc << school
       elsif location.value == "SF"
       sf << school
-      
+    end
+    
     
 end
 
