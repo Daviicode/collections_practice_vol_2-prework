@@ -66,6 +66,11 @@ end
 
 
 def organize_schools(schools)
+  chicago = []
+  nyc = []
+  sf = []
   
+  schools.each do |school|
+    
 end
 
