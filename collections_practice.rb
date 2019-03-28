@@ -50,7 +50,17 @@ end
 
 
 def merge_data (keys, data)
-  
+  collect = []
+    keys.each do |key|
+        data.each do |element|
+             element.each do |name, data_hash|
+                 if name == key[:first_name]
+                    collector << key.merge(data_hash)
+                end
+             end
+         end
+    end
+    collect
 end
   
 
@@ -58,7 +68,7 @@ end
 
 
 def find_cool (cool)
-  [cool[1]]
+  [cool[1]]             #didnt completely understand how this passed 
 end
 
 
