@@ -43,7 +43,7 @@ end
 def count_elements (hash)
    hash.uniq.map do |item| 
 
-   (item[:count] =  hash.count(item))
+   item[:count] =  hash.count(item)
    item
   end
 end
