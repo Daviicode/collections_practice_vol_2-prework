@@ -40,13 +40,17 @@ end
 
 
 
-def count_elements (array)
+def count_elements (hash)
+  
   
 end
 
 
 
-def merge_data ()
+def merge_data (keys, data)
+  
+end
+  
 
 
 
