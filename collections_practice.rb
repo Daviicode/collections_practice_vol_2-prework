@@ -42,7 +42,8 @@ end
 
 def count_elements (hash)
   count = {}
-  
+  hash.each do |name|
+    names = name[:name] += 1 
   
 end
 
