@@ -55,7 +55,7 @@ def merge_data (keys, data)
         data.each do |element|
              element.each do |name, data_hash|
                  if name == key[:first_name]
-                    collector << key.merge(data_hash)
+                    collect << key.merge(data_hash)
                 end
              end
          end
