@@ -41,6 +41,7 @@ end
 
 
 def count_elements (hash)
+  count = {}
   
   
 end
