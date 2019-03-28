@@ -41,11 +41,11 @@ end
 
 
 def count_elements (hash)
-  count = {}
-  hash.each do |data|
-    name = data[:name]
-    
-  
+   hash.uniq.map do |item| 
+
+   (item[:count] =  hash.count(item))
+   item
+  end
 end
 
 
