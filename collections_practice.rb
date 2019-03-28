@@ -58,7 +58,7 @@ end
 
 
 def find_cool (cool)
-  
+  [cool[1]]
 end
 
 
