@@ -78,7 +78,8 @@ def organize_schools(schools)
       elsif location.value == "SF"
       sf << school
     end
-    
+  end
+  
     
 end
 
